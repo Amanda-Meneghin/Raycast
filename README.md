@@ -60,3 +60,5 @@ Funcionalidade:
 
 - O método OnMouseDown() é chamado automaticamente pelo Unity quando o usuário clica no objeto com o mouse.
 - Dentro do método, a função Destroy(gameObject) é chamada, o que resulta na destruição do objeto ao qual o script está anexado.
+
+![WhatsApp Image 2024-03-29 at 19 31 58 (2)](https://github.com/Amanda-Meneghin/Raycast/assets/127872372/dd4f7a6a-4507-45b2-bc10-73e6f5ee6ba4)

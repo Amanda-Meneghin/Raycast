@@ -32,20 +32,20 @@ Aplicação de Movimento:
 
 Objetivo:
 
--O código permite ao jogador destruir objetos em uma determinada camada ao clicar com o botão esquerdo do mouse.
+- O código permite ao jogador destruir objetos em uma determinada camada ao clicar com o botão esquerdo do mouse.
 
 Controles:
 
--O jogador deve clicar com o botão esquerdo do mouse para destruir objetos.
+- O jogador deve clicar com o botão esquerdo do mouse para destruir objetos.
 
 Funcionalidade:
 
--Um raio é lançado a partir da posição da câmera na direção do cursor do mouse.
--Se o raio atingir um objeto que pertença a uma camada específica (definida pela variável cubeLayer) dentro de uma distância especificada, o objeto é destruído.
+- Um raio é lançado a partir da posição da câmera na direção do cursor do mouse.
+- Se o raio atingir um objeto que pertença a uma camada específica (definida pela variável cubeLayer) dentro de uma distância especificada, o objeto é destruído.
 
 Variáveis Personalizáveis:
 
--cubeLayer: Determina a camada dos objetos que podem ser destruídos pelo jogador.
--raycastDistance: Define a distância máxima para o raio de colisão.
+- cubeLayer: Determina a camada dos objetos que podem ser destruídos pelo jogador.
+- raycastDistance: Define a distância máxima para o raio de colisão.
 
-
+![WhatsApp Image 2024-03-29 at 19 31 58 (1)](https://github.com/Amanda-Meneghin/Raycast/assets/127872372/405aec4c-9aa7-4bc0-895f-d62533c2b01f)

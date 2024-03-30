@@ -5,22 +5,22 @@ Criação de uma cena com aplicação do conceito de Raycast, Prefabs e Destroy.
 # Desenvolvimento
 
 ## Conceitos aplicados
-Objetivo:
+**Objetivo:**
 
 - O código proporciona um controle de movimento para um objeto em um ambiente Unity.
 
-Entradas de Controle:
+**Entradas de Controle:**
 
 - Utiliza as entradas do teclado ou de um controle para determinar o movimento horizontal e vertical do objeto.
 - Input.GetAxis("Horizontal") é utilizado para movimento horizontal (esquerda e direita).
 - Input.GetAxis("Vertical") é utilizado para movimento vertical (para cima e para baixo).
 
-Cálculo de Movimento:
+**Cálculo de Movimento:**
 
 - Um vetor tridimensional (Vector3) é criado com base nas entradas de controle.
 - O vetor de movimento é composto pelos componentes horizontal e vertical, juntamente com zero para o eixo Z (profundidade).
 
-Aplicação de Movimento:
+**Aplicação de Movimento:**
 
 - A função Transform.Translate() é usada para mover o objeto.
 - O movimento é calculado multiplicando o vetor de movimento pela velocidade e pelo tempo decorrido desde o último quadro (Time.deltaTime).
@@ -30,20 +30,20 @@ Aplicação de Movimento:
 
 ***
 
-Objetivo:
+**Objetivo:**
 
 - O código permite ao jogador destruir objetos em uma determinada camada ao clicar com o botão esquerdo do mouse.
 
-Controles:
+**Controles:**
 
 - O jogador deve clicar com o botão esquerdo do mouse para destruir objetos.
 
-Funcionalidade:
+**Funcionalidade:**
 
 - Um raio é lançado a partir da posição da câmera na direção do cursor do mouse.
 - Se o raio atingir um objeto que pertença a uma camada específica (definida pela variável cubeLayer) dentro de uma distância especificada, o objeto é destruído.
 
-Variáveis Personalizáveis:
+**Variáveis Personalizáveis:**
 
 - cubeLayer: Determina a camada dos objetos que podem ser destruídos pelo jogador.
 - raycastDistance: Define a distância máxima para o raio de colisão.
@@ -52,11 +52,11 @@ Variáveis Personalizáveis:
 
 ***
 
-Objetivo:
+**Objetivo:**
 
 - O código permite a destruição de um objeto no Unity quando clicado com o mouse.
 
-Funcionalidade:
+**Funcionalidade:**
 
 - O método OnMouseDown() é chamado automaticamente pelo Unity quando o usuário clica no objeto com o mouse.
 - Dentro do método, a função Destroy(gameObject) é chamada, o que resulta na destruição do objeto ao qual o script está anexado.

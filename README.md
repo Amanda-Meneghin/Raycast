@@ -25,3 +25,5 @@ Aplicação de Movimento:
 - A função Transform.Translate() é usada para mover o objeto.
 - O movimento é calculado multiplicando o vetor de movimento pela velocidade e pelo tempo decorrido desde o último quadro (Time.deltaTime).
 - Isso assegura que o movimento seja suave e independente da taxa de quadros.
+
+![WhatsApp Image 2024-03-29 at 19 31 58](https://github.com/Amanda-Meneghin/Raycast/assets/127872372/3dff6387-c53b-4718-a7b1-5edbf9552ab3)

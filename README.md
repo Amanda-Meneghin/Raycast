@@ -27,3 +27,25 @@ Aplicação de Movimento:
 - Isso assegura que o movimento seja suave e independente da taxa de quadros.
 
 ![WhatsApp Image 2024-03-29 at 19 31 58](https://github.com/Amanda-Meneghin/Raycast/assets/127872372/3dff6387-c53b-4718-a7b1-5edbf9552ab3)
+
+***
+
+Objetivo:
+
+-O código permite ao jogador destruir objetos em uma determinada camada ao clicar com o botão esquerdo do mouse.
+
+Controles:
+
+-O jogador deve clicar com o botão esquerdo do mouse para destruir objetos.
+
+Funcionalidade:
+
+-Um raio é lançado a partir da posição da câmera na direção do cursor do mouse.
+-Se o raio atingir um objeto que pertença a uma camada específica (definida pela variável cubeLayer) dentro de uma distância especificada, o objeto é destruído.
+
+Variáveis Personalizáveis:
+
+-cubeLayer: Determina a camada dos objetos que podem ser destruídos pelo jogador.
+-raycastDistance: Define a distância máxima para o raio de colisão.
+
+

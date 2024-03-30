@@ -49,3 +49,14 @@ Variáveis Personalizáveis:
 - raycastDistance: Define a distância máxima para o raio de colisão.
 
 ![WhatsApp Image 2024-03-29 at 19 31 58 (1)](https://github.com/Amanda-Meneghin/Raycast/assets/127872372/405aec4c-9aa7-4bc0-895f-d62533c2b01f)
+
+***
+
+Objetivo:
+
+- O código permite a destruição de um objeto no Unity quando clicado com o mouse.
+
+Funcionalidade:
+
+- O método OnMouseDown() é chamado automaticamente pelo Unity quando o usuário clica no objeto com o mouse.
+- Dentro do método, a função Destroy(gameObject) é chamada, o que resulta na destruição do objeto ao qual o script está anexado.
